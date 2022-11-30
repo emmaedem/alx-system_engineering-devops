@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir tmp
+cd tmp 
+mkdir my_first-directory
+touch directory
+tmp/my_first_directory/directory
