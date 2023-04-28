@@ -10,24 +10,24 @@ while [ $count -lt 10 ]
 
 do
 
-  if [ $count -eq 3 ]
+if [ $count -eq 3 ]
 
-  then
+then
 
-    echo "bad luck"
+echo "bad luck"
 
-  elif [ $count -eq 7 ]
+elif [ $count -eq 7 ]
 
-  then
+then
 
-    echo "good luck"
+echo "good luck"
 
-  else
+else
 
-    echo "Best School"
+echo "Best School"
 
-  fi
+fi
 
-  (( count++ ))
+(( count++ ))
 
 done
